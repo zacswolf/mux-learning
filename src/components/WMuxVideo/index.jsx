@@ -1,4 +1,4 @@
-'use client'; // I wish we could load at least the player body on the server
+'use client'; // I wish we could load at least the player body / thumbnail on the server
 import MuxVideo from "@mux/mux-video-react";
 
 const Video = ({ name, videoId, autoplay=false, preloadAuto=false, cover=false }) => {
@@ -24,7 +24,8 @@ const Video = ({ name, videoId, autoplay=false, preloadAuto=false, cover=false }
         // Different from MuxPlayer, autoplay => autoPlay
         autoPlay={autoplay}
         
-        
+        controls={false}
+
         metadata={{
           video_id: "video-id-1111",
           video_title: {name},

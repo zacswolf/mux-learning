@@ -1,4 +1,4 @@
-'use client'; // I wish we could load at least the player body on the server
+'use client'; // I wish we could load at least the player body / thumbnail on the server
 import MuxPlayer from "@mux/mux-player-react";
 // import MuxPlayer from '@mux/mux-player-react/lazy';
 

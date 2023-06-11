@@ -1,4 +1,4 @@
-import Video from '@/components/wMuxVideo'
+import Video from '@/components/WMuxVideo'
 
 
 export default async function Page() {
