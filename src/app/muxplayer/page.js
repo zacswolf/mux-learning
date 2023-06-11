@@ -7,7 +7,7 @@ export default async function Page() {
 
   return (
     <div className="bg-slate-400 h-screen w-full">
-      <div className="h-[600px] w-[600px] bg-yellow-400 mx-auto my-0">
+      <div className="h-full w-full max-h-[600px] max-w-[600px] bg-yellow-400 mx-auto my-0">
         <Video name={"Learning"} videoId={videoId} autoplay={true} preloadAuto={true} cover={true}/>
       </div>
     </div>
